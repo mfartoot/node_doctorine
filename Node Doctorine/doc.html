@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Node Doctorine: documentation</title>
+		<link href="./fonts/Changa.woff2" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body lang="fa-IR">
+	<nav class="doc-nav-bar">
+		<ul class="doc-nav-bar-lists">
+			<li class="index-nav-bar-list"><a href="./index.html">صفحه اصلی</a></li>
+			<li class="index-nav-bar-list"><a href="./index.html#about">در باره ما</a></li>
+			<li class="index-nav-bar-list"><a href="./index.html#download">دانلود</a></li>
+			<li class="index-nav-bar-list"><a href="#">یادگیری</a></li>
+			<li class="index-nav-bar-list"><a href="./donate.html">حمایت مالی</a></li>
+		</ul>
+	</nav>
+	<section class="doc-main">
+		<nav class="doc-side-bar">
+			<legend class="doc-side-bar-header">نود دکترین</legend>
+			<ul class="doc-side-bar-lists">
+				<li class="doc-side-bar-list"><a href="#">در باره این مقالات</a></li>
+			</ul>
+		</nav>
+		<section class="doc-content">
+			<h3 class="doc-content-header">مستندات NodeJS</h3>
+			<div class="doc-content-main">
+				<ul class="list-inline">
+					<li><a href="#" class="doc-text-linked color-grean">صفحه اصلی</a></li>
+					|
+					<li><a href="#" class="doc-text-linked color-grean">نمایش در صفحه جداگانه</a></li>
+					|
+					<li><a href="#" class="doc-text-linked color-grean">نمایش در JSON</a></li>
+					|
+					<li><a href="#" class="doc-text-linked color-grean">نمایش نسخه های دیگر</a></li>
+
+				</ul>
+
+				<hr>
+
+				<!-- <p class="doc-text-reg">for install nodejs in linux you must enter this commend in your bash :</p> -->
+				<legend class="doc-content-main-header">لیست مطالب</legend>
+
+				<ul class="list-block">
+					<li class=""><a href="#about" class="doc-text-linked color-grean">در باره این مستند</a></li>
+					<li>
+						<li class="list-block-multiple"><a href="#hamkari" class="doc-text-linked color-grean">مشارکت</a></li>
+						<li class="list-block-multiple"><a href="#state" class="doc-text-linked color-grean">شاخص پایداری</a></li>
+						<li class="list-block-multiple"><a href="#outjson" class="doc-text-linked color-grean">خروجی JSON</a></li>
+						<li class="list-block-multiple"><a href="#more" class="doc-text-linked color-grean">صفحات مرتبط</a></li>
+					</li>
+				</ul>
+				<br>
+				<br>
+				<legend class="doc-content-main-header">درباره ی این مستند</legend>
+				<span class="direction-rtl display-inline-block">
+					<p class="doc-text-reg">
+					هدف این مستندات توضیح کامل NodeJS هستو همه ی اینها از یک مرجع و همچنین از یک نقظه نظر مفهومی است. هر بخش  یک نمونه رو با مفهوم کامل توضیح میدهد.
+					</p>
+					<span id="about"></span>
+				</span>
+
+				<br>
+				<br>
+				<p class="doc-text-reg direction-rtl">
+					در هر جایی که لازم باشده انواع ویژگی ها و استدلال های متناول خواهیم داشت. استدلال های ارائه شده در لیستی که زیر عنوان موضوع هست مشخص شده.
+				</p>
+				
+				<br>
+				<br>
+				<br>
+
+				<legend class="doc-content-main-header">همکاری</legend>
+
+				<p class="doc-text-reg display-inline-block">
+					اگه دیدید مشکلی توی این مطالب هست لطفا موضوع رو به بخش پشتیبانی سایت بفرستید .
+				</p>
+				<span id="hamkari"></span>
+				<br>
+				<br>
+				<br>
+
+				<legend class="doc-content-main-header">شاخص پایداری</legend>
+
+				<p class="doc-text-reg display-inline-block">
+					در مقالات ما قسمتی برا برای نشان دادن پایداری اون کد استفاده کردیم. به دلیل اینکه نود جی اس روز به روز در حال رشد هست درسته بعضی از کد ها قابل اطمینان هستند و درصد ماندگاری زیادی دارن و نمیخوان از ما جدا بشنو ممکن نیست منقضی شده یا تغییر پیدا کند ولی شاید کد های دیگری وجود داشته باشند که ممکن هست هر لحظه تغییر پیدا کند و ما این موضوع رو به شما اطلاع خواهیم داد.
+				</p>
+
+				<br>
+
+				<div class="stablity-index-depracated">پایداری :
+				 <span class="stablity-index">0 - منقضی.</span>
+				 <span>این ویزگی به عنوان کد مشکل دار شناخته شده است و بر اساس برنامه تنظیم شده این کار رو کرده ایم. پس . از ان استفاده نکنید . استفاده از این ویژکی ممکن است باعث بروز خطا بشه  و  انتظار نداشته باشید که درست کار کنه.
+				 </span>
+				</div>
+
+				<div class="stablity-index-experimental">پایداری :
+				 <span class="stablity-index">1 - آزمایشی.</span>
+				 <span>
+					این ویژگی در حال حاظر فعال هست و درحال توسعه ممکنه یه تغییراتی توش ایجاد بشه یا حتی حذف بشه. استفاده از این ویژگی توی برنامه هاتوصیه نمیشه .ویژگی های علمی در مدل معنایی ورژن بندی نیستند..
+				 </span>
+				</div>
+
+				<div class="stablity-index-stable">پایداری :
+				 <span class="stablity-index">2 - پایدار.</span>
+				 <span>
+					این ویژگی ثابت کرده که درست کار میکنه و کاربردیه. سازگاری با سیستم پکیج منیجر نود یکی از اولویت های بالای ماست. اگه ثابت نشه که کد مشکل داره پایدار خواهد ماند..
+				 </span>
+				</div>
+
+				<div class="direction-rtl">
+					<span class="doc-text-reg">هنگام استفاده از ویژگی های  </span>
+					<span class="doc-text-badge">آزمایشی</span>
+					<span class="doc-text-reg">
+						مخصوصا توی مازول هایی که ممکنه به عنوان وابستگی یا وابستگی هامون استفاده بشه باید احتیاط کنیم . کاربران جدید ممکنه متوجه نشن که یه ویژگی  آزمایشی هست. ممکنه وقتی که توی مقاله تغییرات ایجاد کردیم دچار مشکل شوند. برای جلوگیری از این سوپرایز هامون ممکن هست ویژگی های
+					</span>
+					<span class="doc-text-badge">آزمایشی</span>
+					<span class="doc-text-reg">به پرچمی برای نشون دادن اینکه سچطور باعث بروز خطا میشوداطلاع بدهیم.. ممکنه اینجور خطا های با stderr چاپ شه  یا ممکنه با اتصال یه گوش دهنده به  رویداد یه هشداری دریافت کنید.
+					</span>
+				</div>
+				<span id="state"></span>
+				<br>
+				<br>
+
+				<legend class="doc-content-main-header">خروجی JSON</legend>
+				<small class="small">اضافه شده در ورژن 0.6.12</small>
+
+				<div class="stablity-index-experimental">پایداری :
+				 <span class="stablity-index">1 - آزمایشی.</span>
+				</div>
+
+				<div class="direction-rtl ">
+					<span class="doc-text-reg">هر صفحه </span>
+					<span class="doc-text-badge direction-ltr">.html</span>
+					<span class="doc-text-reg">حاوی یه سند متنیه.</span>
+					<span class="doc-text-badge direction-ltr">.json</span>
+					<span class="doc-text-reg">که همان اطلاعات رو به شکل ساختاری اراعه میده هنوز ازمایشی هست و برای بهره مندی از IDE ها و ساید سرویس هایی که مایل به انجام کار های برنامه نویسی با اسناد هستند اضافه شده.</span>
+
+				</div>
+
+				<span id="outjson"></span>
+
+				<br>
+				<br>
+
+				<legend class="doc-content-main-header">صفحات مرتبط</legend>
+				<div class="direction-rtl">
+					<span class="doc-text-reg">
+						فراخوانی سیستم مانند
+						<span class="doc-text-linked color-grean direction-ltr">open(2)</span>
+						و
+						<span class="doc-text-linked color-grean direction-ltr">read(2)</span>
+					</span>
+				</div>
+				<span id="more"></span>
+
+				<!-- <p class="doc-text-cmd">~ : sudo apt-get install node-js</p>
+				<br>
+				<a href="#" class="doc-text-linked">Install</a>
+				<p class="doc-text-badge">installed</p>
+				<b class="doc-text-bold">salam</b> -->
+			</div>
+		</section>
+	</section>
+	<footer class="footer">
+		<span>تمامی حقوق مربوط به سایت نود دکترین محفوظ هست - 2018</span>
+		<p class="footer-designer">designed with <i class="fas fa-heart"></i> by <span class="footer-designer-name">Alone Wolf<span></p>
+	</footer>
+</body>
+</html>
